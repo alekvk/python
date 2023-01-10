@@ -83,7 +83,8 @@ def DictFromStr(s):
            break
   else:
       value = 0
-  dict['0'] = value
+  if (value != 0):
+    dict['0'] = value
 
   # Находим член многочлена со степенью 1 (при наличии)
   value = 0
@@ -118,8 +119,8 @@ def DictFromStr(s):
                  break
   else:
       value = 0
-
-  dict['1'] = value
+  if (value != 0):
+    dict['1'] = value
 
   # Находим члены многочлена со степенью n, где n не равно 0 или 1
   for i in range((len(s) - 1), 0, -1):
