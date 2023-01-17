@@ -18,10 +18,8 @@ def RleCompr(s):
      while (i < len(s) and a == s[i]):
              count += 1
              i += 1
-     if (count > 1):
-        rleString += str(count) + str(a)
-     else:
-         rleString += "1" + str(a)
+     rleString += str(count) + str(a)
+
   return rleString
 
 #  Функция восстановления

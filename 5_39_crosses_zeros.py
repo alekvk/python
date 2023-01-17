@@ -56,7 +56,7 @@ while (step < 9):
      player1 += str(n1)
      map [n1-1] = "X"
      PrintMap(map)
-     if (step > 4):
+     if (step >= 4):
         if (CheckWin(player1) == 1):
             print ("Выиграл игрок номер 1")
             break
@@ -75,7 +75,7 @@ while (step < 9):
      player2 += str(n2)
      map[n2 - 1] = "0"
      PrintMap(map)
-     if (step > 4):
+     if (step >= 4):
          if (CheckWin(player2) == 1):
              print("Выиграл игрок номер 2")
              break
