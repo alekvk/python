@@ -50,7 +50,7 @@ def StrFromDict(d):
             elif (value <= -1):
                 polynomial += str(value)
             else:
-                polynomial += polynomial
+                polynomial = polynomial
 
     polynomial += "=0"
     return polynomial
