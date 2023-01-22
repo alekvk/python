@@ -189,7 +189,7 @@ aString2 = input2.read()
 print(aString1)
 print(aString2)
 
-print("Словари, полученные из многочленов")
+print("Словари, полученные  из многочленов")
 dict1 = DictFromStr(aString1)
 print(dict1)
 dict2 = DictFromStr(aString2)
