@@ -1,0 +1,4 @@
+1,Zina,Mironova,78321,Atelye
+2,Vladimir,Polunin,45698,Rabota
+3,Aleksandr,Prohorov,45632,Remont
+13,Svetlana,Margufina,23654,Doctor
